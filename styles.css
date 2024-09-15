@@ -61,3 +61,40 @@ button {
     color: inherit;
     text-decoration: none;
 }
+
+
+/* HERO SECTION */
+.landing-main {
+    flex: 1;
+}
+
+.hero {
+    background: var(--dark-bg-color);
+    color: var(--light-color-primary);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+}
+
+.hero-text {
+    width: 450px;
+}
+
+.hero-text > h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text > p {
+    margin-bottom: 10px;
+}
+
+.hero-image {
+    width: 500px;
+    height: 250px;
+    flex-shrink: 0;
+    text-align: center;
+    align-content: center;
+    background: var(--placeholder-bg-color);
+}
