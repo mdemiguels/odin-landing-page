@@ -24,6 +24,10 @@ body {
     flex-direction: column;
 }
 
+h1, h2 {
+    font-weight: 900;
+}
+
 button {
     background: var(--button-bg-color);
     padding: 5px 20px;
@@ -83,7 +87,6 @@ button {
 
 .hero-text > h1 {
     font-size: 48px;
-    font-weight: 900;
 }
 
 .hero-text > p {
@@ -97,4 +100,34 @@ button {
     text-align: center;
     align-content: center;
     background: var(--placeholder-bg-color);
+}
+
+
+/* RANDOM SECTION */
+.random > h2 {
+    font-size: 36px;
+    color: var(--dark-color-primary);
+    text-align: center;
+    padding: 30px;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 50px 0;
+}
+
+.card {
+    max-width: 200px;
+    text-align: center;
+}
+
+.illustration {
+    width: 200px;
+    height: 200px;
+    border: 3px solid var(--button-bg-color);
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
